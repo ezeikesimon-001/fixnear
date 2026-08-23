@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FixNear | Find Trusted Appliance Technicians</title>
+
+    <meta
+        name="description"
+        content="FixNear connects customers with trusted appliance repair technicians nearby."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+        <div class="container nav">
+
+            <a href="#" class="logo">
+                <span class="logo-icon">
+                    <i class="fa-solid fa-screwdriver-wrench"></i>
+                </span>
+                <span>Fix<span>Near</span></span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#services">Services</a>
+                <a href="#technicians">Technicians</a>
+                <a href="#how-it-works">How It Works</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="login-btn">Log in</button>
+                <button class="primary-btn small">Get Started</button>
+            </div>
+
+            <button class="menu-btn" id="menuBtn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+        </div>
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero">
+
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+
+                    <div class="hero-badge">
+                        <span class="pulse"></span>
+                        Trusted technicians near you
+                    </div>
+
+                    <h1>
+                        Your appliance breaks.
+                        <span>We fix it.</span>
+                    </h1>
+
+                    <p>
+                        Find trusted appliance technicians near your location,
+                        request a repair, track their arrival and pay securely —
+                        all from one place.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#find-technician" class="primary-btn">
+                            Find a Technician
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#how-it-works" class="secondary-btn">
+                            <i class="fa-solid fa-play"></i>
+                            How it works
+                        </a>
+
+                    </div>
+
+                    <div class="trust-row">
+
+                        <div class="avatars">
+                            <span>JD</span>
+                            <span>AM</span>
+                            <span>SK</span>
+                            <span>+</span>
+                        </div>
+
+                        <div>
+                            <strong>2,500+</strong>
+                            <small>repairs completed</small>
+                        </div>
+
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <strong>4.9</strong>
+                            <small>average rating</small>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- HERO VISUAL -->
+
+                <div class="hero-visual">
+
+                    <div class="floating-card card-top">
+                        <div class="status-icon success">
+                            <i class="fa-solid fa-check"></i>
+                        </div>
+
+                        <div>
+                            <strong>Technician found</strong>
+                            <small>David is 1.2 km away</small>
+                        </div>
+                    </div>
+
+
+                    <div class="map-card">
+
+                        <div class="map-grid"></div>
+
+                        <div class="road road-1"></div>
+                        <div class="road road-2"></div>
+                        <div class="road road-3"></div>
+
+                        <div class="map-location customer">
+                            <i class="fa-solid fa-house"></i>
+                        </div>
+
+                        <div class="map-location technician">
+                            <i class="fa-solid fa-wrench"></i>
+                        </div>
+
+                        <div class="route-line"></div>
+
+                        <div class="map-label">
+                            <strong>David Technician</strong>
+                            <span>1.2 km • 5 min away</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="floating-card card-bottom">
+
+                        <div class="technician-avatar">
+                            DT
+                        </div>
+
+                        <div>
+                            <strong>David Technician</strong>
+
+                            <div class="mini-rating">
+                                <i class="fa-solid fa-star"></i>
+                                4.9
+                                <span>• 342 jobs</span>
+                            </div>
+                        </div>
+
+                        <span class="online-dot"></span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SERVICES ================= -->
+
+        <section class="section" id="services">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="eyebrow">OUR SERVICES</span>
+
+                        <h2>
+                            Appliance problems?
+                            <span>We've got you.</span>
+                        </h2>
+                    </div>
+
+                    <p>
+                        Whatever appliance is giving you trouble,
+                        find a qualified technician who can help.
+                    </p>
+
+                </div>
+
+
+                <div class="service-grid">
+
+                    <button class="service-card" data-appliance="Refrigerator">
+                        <div class="service-icon blue">
+                            <i class="fa-solid fa-temperature-low"></i>
+                        </div>
+                        <strong>Refrigerator</strong>
+                        <span>Cooling & leaks</span>
+                    </button>
+
+                    <button class="service-card" data-appliance="Washing Machine">
+                        <div class="service-icon purple">
+                            <i class="fa-solid fa-shirt"></i>
+                        </div>
+                        <strong>Washing Machine</strong>
+                        <span>Wash & spin issues</span>
+                    </button>
+
+                    <button class="service-card" data-appliance="Microwave">
+                        <div class="service-icon orange">
+                            <i class="fa-solid fa-fire-burner"></i>
+                        </div>
+                        <strong>Microwave</strong>
+                        <span>Heating problems</span>
+                    </button>
+
+                    <button class="service-card" data-appliance="Air Conditioner">
+                        <div class="service-icon cyan">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <strong>Air Conditioner</strong>
+                        <span>Cooling & power</span>
+                    </button>
+
+                    <button class="service-card" data-appliance="Fan">
+                        <div class="service-icon green">
+                            <i class="fa-solid fa-fan"></i>
+                        </div>
+                        <strong>Fan</strong>
+                        <span>Motor & power</span>
+                    </button>
+
+                    <button class="service-card" data-appliance="Gas Cooker">
+                        <div class="service-icon red">
+                            <i class="fa-solid fa-fire"></i>
+                        </div>
+                        <strong>Gas Cooker</strong>
+                        <span>Burner & ignition</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FIND TECHNICIAN ================= -->
+
+        <section class="find-section" id="find-technician">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="eyebrow">FIND HELP NEARBY</span>
+
+                    <h2>
+                        Find a technician
+                        <span>near you.</span>
+                    </h2>
+
+                    <p>
+                        Tell us what's wrong and where you are.
+                        We'll show you available technicians nearby.
+                    </p>
+
+                </div>
+
+
+                <div class="search-panel">
+
+                    <div class="search-field">
+
+                        <label>
+                            <i class="fa-solid fa-location-dot"></i>
+                            Your location
+                        </label>
+
+                        <input
+                            type="text"
+                            id="locationInput"
+                            placeholder="Enter your location"
+                        >
+
+                    </div>
+
+
+                    <div class="search-field">
+
+                        <label>
+                            <i class="fa-solid fa-wrench"></i>
+                            Appliance
+                        </label>
+
+                        <select id="applianceInput">
+
+                            <option value="">Select appliance</option>
+                            <option>Refrigerator</option>
+                            <option>Washing Machine</option>
+                            <option>Microwave</option>
+                            <option>Air Conditioner</option>
+                            <option>Fan</option>
+                            <option>Gas Cooker</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="search-field problem-field">
+
+                        <label>
+                            <i class="fa-solid fa-circle-exclamation"></i>
+                            What's wrong?
+                        </label>
+
+                        <input
+                            type="text"
+                            id="problemInput"
+                            placeholder="Describe the problem"
+                        >
+
+                    </div>
+
+
+                    <button class="primary-btn search-btn" id="searchBtn">
+                        Search
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+
+                </div>
+
+
+                <!-- MAP + TECHNICIANS -->
+
+                <div class="results-layout" id="resultsSection">
+
+                    <div class="large-map">
+
+                        <div class="map-grid"></div>
+
+                        <div class="map-road r1"></div>
+                        <div class="map-road r2"></div>
+                        <div class="map-road r3"></div>
+                        <div class="map-road r4"></div>
+
+                        <div class="map-pin customer-pin">
+                            <div>
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <span>You</span>
+                        </div>
+
+                        <div class="tech-pin pin-one">
+                            <div>JD</div>
+                            <span>1.2 km</span>
+                        </div>
+
+                        <div class="tech-pin pin-two">
+                            <div>MT</div>
+                            <span>2.4 km</span>
+                        </div>
+
+                        <div class="tech-pin pin-three">
+                            <div>SK</div>
+                            <span>3.1 km</span>
+                        </div>
+
+                        <div class="map-controls">
+                            <button>
+                                <i class="fa-solid fa-plus"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-minus"></i>
+                            </button>
+
+                            <button>
+                                <i class="fa-solid fa-location-crosshairs"></i>
+                            </button>
+                        </div>
+
+                    </div>
+
+
+                    <div class="technician-results">
+
+                        <div class="results-header">
+
+                            <div>
+                                <span class="eyebrow">AVAILABLE NOW</span>
+                                <h3>Nearby technicians</h3>
+                            </div>
+
+                            <span class="available-count">
+                                6 available
+                            </span>
+
+                        </div>
+
+
+                        <div id="technicianList">
+
+                            <article
+                                class="technician-card active-tech"
+                                data-technician="David Technician"
+                            >
+
+                                <div class="tech-avatar">DT</div>
+
+                                <div class="tech-info">
+
+                                    <div class="tech-name">
+                                        <strong>David Technician</strong>
+                                        <span class="verified">
+                                            <i class="fa-solid fa-check"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="mini-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        4.9
+                                        <span>• 342 jobs</span>
+                                    </div>
+
+                                    <p>
+                                        Refrigerator • AC • Washing Machine
+                                    </p>
+
+                                </div>
+
+                                <div class="tech-distance">
+                                    <strong>1.2 km</strong>
+                                    <span>~5 min</span>
+                                </div>
+
+                            </article>
+
+
+                            <article
+                                class="technician-card"
+                                data-technician="Michael Technician"
+                            >
+
+                                <div class="tech-avatar purple-avatar">
+                                    MT
+                                </div>
+
+                                <div class="tech-info">
+
+                                    <div class="tech-name">
+                                        <strong>Michael Technician</strong>
+                                        <span class="verified">
+                                            <i class="fa-solid fa-check"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="mini-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        4.8
+                                        <span>• 218 jobs</span>
+                                    </div>
+
+                                    <p>
+                                        Microwave • Fan • Gas Cooker
+                                    </p>
+
+                                </div>
+
+                                <div class="tech-distance">
+                                    <strong>2.4 km</strong>
+                                    <span>~9 min</span>
+                                </div>
+
+                            </article>
+
+
+                            <article
+                                class="technician-card"
+                                data-technician="Sarah Technician"
+                            >
+
+                                <div class="tech-avatar green-avatar">
+                                    SK
+                                </div>
+
+                                <div class="tech-info">
+
+                                    <div class="tech-name">
+                                        <strong>Sarah Technician</strong>
+                                        <span class="verified">
+                                            <i class="fa-solid fa-check"></i>
+                                        </span>
+                                    </div>
+
+                                    <div class="mini-rating">
+                                        <i class="fa-solid fa-star"></i>
+                                        4.7
+                                        <span>• 186 jobs</span>
+                                    </div>
+
+                                    <p>
+                                        AC • Refrigerator • Fan
+                                    </p>
+
+                                </div>
+
+                                <div class="tech-distance">
+                                    <strong>3.1 km</strong>
+                                    <span>~12 min</span>
+                                </div>
+
+                            </article>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TECHNICIANS ================= -->
+
+        <section class="section" id="technicians">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <span class="eyebrow">TRUSTED PROFESSIONALS</span>
+                        <h2>Meet our top technicians.</h2>
+                    </div>
+
+                    <p>
+                        Experienced professionals verified and rated
+                        by customers like you.
+                    </p>
+
+                </div>
+
+
+                <div class="profile-grid">
+
+                    <article class="profile-card">
+
+                        <div class="profile-cover"></div>
+
+                        <div class="profile-body">
+
+                            <div class="profile-avatar">DT</div>
+
+                            <span class="verified-label">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Verified
+                            </span>
+
+                            <h3>David Technician</h3>
+
+                            <p>Appliance Repair Specialist</p>
+
+                            <div class="profile-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <strong>4.9</strong>
+                                <span>(342 reviews)</span>
+                            </div>
+
+                            <div class="profile-stats">
+                                <span>
+                                    <strong>5+</strong>
+                                    Years
+                                </span>
+
+                                <span>
+                                    <strong>342</strong>
+                                    Repairs
+                                </span>
+
+                                <span>
+                                    <strong>98%</strong>
+                                    Success
+                                </span>
+                            </div>
+
+                            <button
+                                class="outline-btn request-btn"
+                                data-technician="David Technician"
+                            >
+                                View Profile
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="profile-card">
+
+                        <div class="profile-cover purple-cover"></div>
+
+                        <div class="profile-body">
+
+                            <div class="profile-avatar purple-avatar">MT</div>
+
+                            <span class="verified-label">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Verified
+                            </span>
+
+                            <h3>Michael Technician</h3>
+
+                            <p>Home Appliance Expert</p>
+
+                            <div class="profile-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <strong>4.8</strong>
+                                <span>(218 reviews)</span>
+                            </div>
+
+                            <div class="profile-stats">
+                                <span>
+                                    <strong>4+</strong>
+                                    Years
+                                </span>
+
+                                <span>
+                                    <strong>218</strong>
+                                    Repairs
+                                </span>
+
+                                <span>
+                                    <strong>97%</strong>
+                                    Success
+                                </span>
+                            </div>
+
+                            <button
+                                class="outline-btn request-btn"
+                                data-technician="Michael Technician"
+                            >
+                                View Profile
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="profile-card">
+
+                        <div class="profile-cover green-cover"></div>
+
+                        <div class="profile-body">
+
+                            <div class="profile-avatar green-avatar">SK</div>
+
+                            <span class="verified-label">
+                                <i class="fa-solid fa-circle-check"></i>
+                                Verified
+                            </span>
+
+                            <h3>Sarah Technician</h3>
+
+                            <p>Cooling Systems Specialist</p>
+
+                            <div class="profile-rating">
+                                <i class="fa-solid fa-star"></i>
+                                <strong>4.7</strong>
+                                <span>(186 reviews)</span>
+                            </div>
+
+                            <div class="profile-stats">
+                                <span>
+                                    <strong>4+</strong>
+                                    Years
+                                </span>
+
+                                <span>
+                                    <strong>186</strong>
+                                    Repairs
+                                </span>
+
+                                <span>
+                                    <strong>96%</strong>
+                                    Success
+                                </span>
+                            </div>
+
+                            <button
+                                class="outline-btn request-btn"
+                                data-technician="Sarah Technician"
+                            >
+                                View Profile
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HOW IT WORKS ================= -->
+
+        <section class="how-section" id="how-it-works">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <span class="eyebrow">SIMPLE PROCESS</span>
+
+                    <h2>
+                        Repair your appliance
+                        <span>without the stress.</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="steps">
+
+                    <div class="step">
+
+                        <div class="step-number">01</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <h3>Tell us where you are</h3>
+
+                        <p>
+                            Enter your location and tell us what
+                            appliance needs attention.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">02</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-user-check"></i>
+                        </div>
+
+                        <h3>Choose a technician</h3>
+
+                        <p>
+                            Compare nearby technicians by rating,
+                            distance, experience and price.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">03</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-route"></i>
+                        </div>
+
+                        <h3>Track their arrival</h3>
+
+                        <p>
+                            Watch the technician's status from
+                            acceptance to arrival.
+                        </p>
+
+                    </div>
+
+
+                    <div class="step">
+
+                        <div class="step-number">04</div>
+
+                        <div class="step-icon">
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+
+                        <h3>Pay & rate</h3>
+
+                        <p>
+                            Complete your payment and rate the
+                            service when the repair is finished.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LIVE REQUEST DEMO ================= -->
+
+        <section class="request-section">
+
+            <div class="container">
+
+                <div class="request-card" id="requestCard">
+
+                    <div class="request-content">
+
+                        <span class="eyebrow">LIVE SERVICE DEMO</span>
+
+                        <h2>
+                            From request to repair —
+                            <span>all in one place.</span>
+                        </h2>
+
+                        <p>
+                            FixNear keeps you informed throughout the
+                            entire repair journey.
+                        </p>
+
+                        <button class="primary-btn" id="startRequestBtn">
+                            Request a Technician
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+
+                    </div>
+
+
+                    <div class="status-timeline">
+
+                        <div class="timeline-item completed">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-check"></i>
+                            </div>
+
+                            <div>
+                                <strong>Request sent</strong>
+                                <span>Service request created</span>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-line"></div>
+
+
+                        <div class="timeline-item active">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-user-check"></i>
+                            </div>
+
+                            <div>
+                                <strong>Technician accepted</strong>
+                                <span>David is preparing to leave</span>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-line"></div>
+
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-car"></i>
+                            </div>
+
+                            <div>
+                                <strong>En route</strong>
+                                <span>Technician is heading to you</span>
+                            </div>
+                        </div>
+
+
+                        <div class="timeline-line"></div>
+
+
+                        <div class="timeline-item">
+                            <div class="timeline-icon">
+                                <i class="fa-solid fa-screwdriver-wrench"></i>
+                            </div>
+
+                            <div>
+                                <strong>Repair</strong>
+                                <span>Technician fixes the appliance</span>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div>
+
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </span>
+                    <span>Fix<span>Near</span></span>
+                </a>
+
+                <p>
+                    Making appliance repairs faster,
+                    safer and easier for everyone.
+                </p>
+
+            </div>
+
+
+            <div>
+
+                <h4>Platform</h4>
+
+                <a href="#services">Services</a>
+                <a href="#technicians">Technicians</a>
+                <a href="#how-it-works">How It Works</a>
+
+            </div>
+
+
+            <div>
+
+                <h4>Support</h4>
+
+                <a href="#">Help Center</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Safety</a>
+
+            </div>
+
+
+            <div>
+
+                <h4>For Technicians</h4>
+
+                <a href="#">Become a Technician</a>
+                <a href="#">Technician Login</a>
+                <a href="#">Partner With Us</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 FixNear. All rights reserved.
+            </span>
+
+            <span>
+                Built for smarter appliance repair.
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= REQUEST MODAL ================= -->
+
+    <div class="modal" id="requestModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close" id="modalClose">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <div class="modal-icon">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+            </div>
+
+            <span class="eyebrow">SERVICE REQUEST</span>
+
+            <h2>Request David Technician</h2>
+
+            <p>
+                Your request will be sent to the selected technician.
+            </p>
+
+            <div class="request-summary">
+
+                <div>
+                    <span>Technician</span>
+                    <strong id="modalTechnician">
+                        David Technician
+                    </strong>
+                </div>
+
+                <div>
+                    <span>Estimated arrival</span>
+                    <strong>5 minutes</strong>
+                </div>
+
+                <div>
+                    <span>Service fee</span>
+                    <strong>₦5,000+</strong>
+                </div>
+
+            </div>
+
+            <button class="primary-btn full-btn" id="confirmRequest">
+                Send Request
+                <i class="fa-solid fa-paper-plane"></i>
+            </button>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= TOAST ================= -->
+
+    <div class="toast" id="toast">
+
+        <div class="toast-icon">
+            <i class="fa-solid fa-check"></i>
+        </div>
+
+        <div>
+            <strong id="toastTitle">Request sent</strong>
+            <span id="toastMessage">
+                Your technician has been notified.
+            </span>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
